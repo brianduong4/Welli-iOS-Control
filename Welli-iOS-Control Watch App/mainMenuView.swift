@@ -3,17 +3,15 @@
 //  welli Watch App
 //
 //
-
 import SwiftUI
 import HealthKit
 import WatchConnectivity
-
 
 //This is the main page view where you can see the main questions that leads everything else off, this is the first interface that asks about their feelings
 
 
 struct ContentView: View {
-    var username = "Brian" //MARK: PUT USERNAME FOR EACH USER HERE
+    var username = "Caitlin" //MARK: PUT USERNAME FOR EACH USER HERE
     @EnvironmentObject var environmentObject: WriteViewModel
     
     let healthStore = HKHealthStore()
